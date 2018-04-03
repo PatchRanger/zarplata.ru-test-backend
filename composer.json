@@ -1,0 +1,24 @@
+{
+    "minimum-stability": "dev",
+    "require": {
+        "silex/silex": "~2.0",
+        "symfony/validator": "3.4.x-dev",
+        "guzzlehttp/guzzle": "^6.2@dev",
+        "athari/yalinqo": "^2.0@dev",
+        "Hkey1/fast-ru-morf": "*"
+    },
+    "repositories": {
+        "Hkey1/fast-ru-morf": {
+            "type": "package",
+            "package": {
+                "name": "Hkey1/fast-ru-morf",
+                "version": "dev-master",
+                "source": {
+                    "url": "https://github.com/Hkey1/fast-ru-morf",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        }
+    }
+}
